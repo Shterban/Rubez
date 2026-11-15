@@ -1,8 +1,0 @@
-{
-  "name": "NkTransaction",
-  "fields": [
-    { "name": "amount", "type": "integer", "required": true, "sortable": true },
-    { "name": "reason", "type": "string", "required": true },
-    { "name": "kind", "type": "enum", "enum": ["tariff", "purchase", "action"], "filterable": true }
-  ]
-}

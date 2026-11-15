@@ -1,8 +1,0 @@
-{
-  "name": "AgentEvent",
-  "fields": [
-    { "name": "text", "type": "string", "required": true, "size": 2048 },
-    { "name": "costNK", "type": "integer" },
-    { "name": "status", "type": "enum", "enum": ["done", "pending", "error"], "filterable": true }
-  ]
-}
