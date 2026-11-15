@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Заголовок и описание — про оффер, а не про конструктор.
+         TODO при деплое: подставить настоящий домен в canonical/og:url/og:image. -->
+    <title>Рубеж — AI-агент для Minecraft-сервера: сборки, диагностика, смета в НК</title>
+    <meta
+      name="description"
+      content="Опишите сервер словами: агент соберёт сборку из плагинов и модов, разберёт лаги по логу и покажет план со сметой в НК. Каждое действие — только после подтверждения, каждое списание — в журнале."
+    />
+    <link rel="canonical" href="/" />
+    <meta name="theme-color" content="#0b0e14" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="Рубеж" />
+    <meta property="og:title" content="Рубеж — AI-агент для Minecraft-сервера" />
+    <meta
+      property="og:description"
+      content="Агент собирает сборки, разбирает логи и планирует постройки. Смета в НК — до действия, журнал — после."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Рубеж: агент предлагает план со сметой в НК" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Рубеж — AI-агент для Minecraft-сервера" />
+    <meta
+      name="twitter:description"
+      content="Сборки, диагностика по логам, планы построек. Смета в НК до подтверждения."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Шрифты: preconnect + link вместо @import в CSS (не блокирует разбор стилей). -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Рубеж",
+            "description": "Платформа с AI-агентом для владельцев Minecraft-серверов: сборки, диагностика по логам, планы со сметой в НК."
+          },
+          {
+            "@type": "WebSite",
+            "name": "Рубеж",
+            "inLanguage": "ru-RU"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="max-width: 40rem; margin: 4rem auto; padding: 0 1.25rem; font-family: system-ui, sans-serif; color: #eef1f7; background: #0b0e14; line-height: 1.6">
+        <h1 style="font-size: 1.5rem">Рубеж — AI-агент для Minecraft-сервера</h1>
+        <p>
+          Агент собирает сборки из плагинов и модов, разбирает лаги по логам и планирует постройки. Смета в НК
+          показывается до действия, списание — в журнале.
+        </p>
+        <p>Для работы интерфейса нужен JavaScript: включите его или откройте сайт в современном браузере.</p>
+        <p>Почта поддержки — в подвале сайта.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
