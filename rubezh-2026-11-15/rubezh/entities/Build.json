@@ -1,0 +1,10 @@
+{
+  "name": "Build",
+  "fields": [
+    { "name": "title", "type": "string", "required": true },
+    { "name": "core", "type": "string", "required": true },
+    { "name": "coreName", "type": "string" },
+    { "name": "components", "type": "string", "size": 20000 },
+    { "name": "estimateNK", "type": "integer" }
+  ]
+}
